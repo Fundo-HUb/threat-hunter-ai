@@ -38,4 +38,5 @@ new_activity = pd.DataFrame([{
 }])
 
 prediction = clf.predict(new_activity)[0]
-print("Prediction for new activity:", "Suspicious 🚨" if prediction == 1 else "Normal ✅")
+print("Prediction for new activity:", "Suspicious" if prediction == 1 else "Normal")
+
